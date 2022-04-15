@@ -1,0 +1,4 @@
+// Questao 8
+
+// Os programas imprimem os elementos do vetor vet[]
+// 4 9 13

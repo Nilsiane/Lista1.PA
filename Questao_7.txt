@@ -1,0 +1,10 @@
+//Questao 7
+
+ // As expressões válidas são: 
+ 
+1) p = mat + 1; // O nome de um vetor sempre representa seu valor em v[0], dessa maneira, podemos fazer
+                // p = mat + 1 equivale ao valor em mat[1]
+
+2) p = mat++; // P recebe mat [1], mesmo efeito de mat+1
+
+3) x = (*mat)++; // retorna o valor em mat[0] e soma 1
