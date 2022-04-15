@@ -1,0 +1,3 @@
+// Questão 1
+
+// Resumo das respostas: (1) verdadeiro / -2 / 3 / -10
