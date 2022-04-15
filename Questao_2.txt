@@ -1,0 +1,2 @@
+ // Questão 2
+// Resumo das respostas: 4094 / 7 / 5 / 15 / 9
