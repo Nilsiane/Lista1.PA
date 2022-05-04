@@ -17,7 +17,7 @@ void ordenavetor () {
       scanf ("%f", &v[i]);
    }
   printf ("o vetor ordenado e: \n");
-   
+    for (int i=0; i< (n-1); ++i) {
     for (int j=0; j < (n-1); ++j) {
         if ( v[j] > v[j+1]) {
 	        aux = v[j];
@@ -25,6 +25,7 @@ void ordenavetor () {
 	        v[j+1] = aux;
    } 
     }
+      }
      
    for (int z=0; z < n; ++z) {
     printf (" %f", v[z]);
