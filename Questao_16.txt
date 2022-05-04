@@ -1,3 +1,3 @@
-Utilizando minha própria função de ordenação, o tempo de execução da implementação foi de 18.158ms;
+Utilizando minha própria função de ordenação, o tempo de execução da implementação foi de 14.222ms;
 Utilizando a função qsort, o tempo encontrado foi de 15.039ms.
-Ou seja, a utilização da função qsort se mostrou mais eficaz. 
+Ou seja, a utilização da função própria se mostrou mais eficaz do que a utilização da função pronta, qsort. 
