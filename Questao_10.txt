@@ -1,0 +1,25 @@
+As repostas obtidas pelo programa foram:
+
+Para x = char
+
+-1457522644, -1457522640, -1457522636 
+(incremento de 4 bytes, era esperado apenas 1)
+
+para x = int
+
+-1457522672, -1457522656, -1457522640
+(incremento de 16bytes, eram esperados 2)
+
+para x = float
+
+-1457522688, -1457522672, -1457522656
+(incremento de 16bytes, eram esperados 4)
+
+para x = double
+-1457522720, -1457522688, -1457522656
+(incremento de 32bytes, eram esperados 8)
+
+conclusão: Ao realizar as operações, o programa não devolveu
+o endereço de x[1]; x [2] ; x [3]; como esperava na questão 9.
+Ao inves disso, devolveu o valor do endereço + um salto inteiro do tamanho de todo vetor.
+

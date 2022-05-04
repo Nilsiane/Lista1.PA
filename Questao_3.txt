@@ -1,0 +1,5 @@
+Expressões ilegais:
+
+i = (*&)j;
+q = *p;
+i = (*p)++ + *q;
